@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&display=swap');
+body{
+margin: 0;
+font-family: 'Abel', sans-serif;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+#honza{
+    background: url(left.png);
+    background-repeat:no-repeat;
+    
+}
+
+#zahradka {
+    background: url(right.png);
+    background-repeat:no-repeat;
+    
+}
+
+.photo{
+    height: 100vh;
+    width: 20%;
+}
+
+#menu{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.language {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.45);
+    text-decoration: none;
+
+}
+
+.middle{
+    position: fixed;
+}
+
+#text1{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#time{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0, 91, 42, 1);
+}
+
+#text2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.nav-link{
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: 10%;
+    color: rgba(0, 91, 42, 1);
+    margin: 2vh;
+}
+
